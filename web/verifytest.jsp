@@ -15,7 +15,7 @@
 </head>
 <body>
 <jsp:useBean id="user" scope="page" class="bean.info">
-    <jsp:setProperty name="user" property="*"  />
+<jsp:setProperty name="user" property="*"  />
 </jsp:useBean>
 <%--<%= user.getName()%>--%>
 <%--<%= user.getPassword()%>--%>
@@ -49,7 +49,6 @@
                 if (usn.equals(x) && pwd.equals(y)) {
                     out.print("登录成功");
                     out.print("<a href=\"index.jsp\">点击这里回到主页</a>");
-                    session.setAttribute("user",x);
                     break;
 
                 } else {

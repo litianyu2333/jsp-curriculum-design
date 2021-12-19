@@ -1,0 +1,78 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to left, #6690ac,#c04977);
+    display: flex;
+    justify-content: center;
+}
+.a{
+    position: relative;
+    top: 100px;
+    width: 1100px;
+    height: 550px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    display: flex;
+
+}
+
+.b{
+    width: 800px;
+    height: 550px;
+    /*background-image: url(https://z3.ax1x.com/2021/12/02/oNt9un.jpg);*/
+    background-size: auto;
+}
+.c{
+    width: 300px;
+    height: 550px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d{
+    width: 250px;
+    height: 500px;
+}
+.d h1{
+    font: 900 30px '';
+}
+.e{
+    width: 230px;
+    margin: 20px 0;
+    outline:none;
+    border: 0;
+    padding: 10px;
+    border-bottom: 3px solid rgb(80,80,170);
+    font: 900 16px '';
+
+}
+.f1{
+    float: left;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #c04977;
+}
+.f{
+    float: right;
+    margin: 10px 0;
+}
+.g{
+    position:absolute;
+    margin: 20px;
+    bottom: 40px;
+    display: block;
+    width: 200px;
+    height: 60px;
+    font: 900 30px '';
+    text-decoration: none;
+    line-height: 50px;
+    border-radius: 30px;
+    background-image: linear-gradient(to top,#d4d4d4,#ffffff);
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}

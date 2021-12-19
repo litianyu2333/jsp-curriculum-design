@@ -13,8 +13,14 @@
 </head>
 <body>
 
-<jsp:useBean id="date" class="java.util.Date" />
-<p>日期为：<%= date %>
+<%
+if ("1"=="2"){%>
+<p>6666</p>
+<%}else{%>
+<p>9999</p>
+<%}%>
+
+
 
 </body>
 </html>
